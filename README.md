@@ -1,6 +1,6 @@
 # Projeto sql_pentarruda
 
-Time envolvido:
+Time envolvido: <br>
 [Renato Albuquerque](https://www.linkedin.com/in/renato-malbuquerque/) <br>
 [Kleber Freitas](https://www.linkedin.com/in/kleber-freitas-2795227b/) <br>
 [Arruda Consulting](https://www.linkedin.com/company/arrudaconsulting/)
