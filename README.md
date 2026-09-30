@@ -1,8 +1,8 @@
 # Projeto sql_pentarruda
 
 Time envolvido:
-[Renato Albuquerque](https://www.linkedin.com/in/renato-malbuquerque/)
-[Kleber Freitas](https://www.linkedin.com/in/kleber-freitas-2795227b/)
+[Renato Albuquerque](https://www.linkedin.com/in/renato-malbuquerque/) <br>
+[Kleber Freitas](https://www.linkedin.com/in/kleber-freitas-2795227b/) <br>
 [Arruda Consulting](https://www.linkedin.com/company/arrudaconsulting/)
 
 ## 1. Arquitetura do Projeto
