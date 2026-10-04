@@ -43,13 +43,13 @@ git remote -v
 
 O resultado deve mostrar a URL do repositório para `fetch` e `push`.
 
-## 2.6 Fluxo de trabalho no dia a dia
+### 2.6 Fluxo de trabalho no dia a dia
 ```bash
 git add .
 git commit -m "descrição da alteração"
 git push
 ```
 
-## 2.7. Observações
+### 2.7. Observações
 - `uv add <pacote>` adiciona dependências Python ao projeto (ex.: `uv add pandas`). Não tem relação com o GitHub.
 
