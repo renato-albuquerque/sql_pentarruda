@@ -8,7 +8,7 @@ Time envolvido: <br>
 ## 1. Arquitetura do Projeto
 ![imagem_arquitetura_projeto](images/arquitetura_projeto.jpg)
 
-## 2. Configuração inicial do projeto
+## 2. Configuração inicial do projeto (Git & GitHub)
 Passo a passo para criar o projeto com [uv](https://docs.astral.sh/uv/) e vinculá-lo a um repositório no GitHub.
 
 ### 2.1. Criar a pasta do projeto
@@ -52,4 +52,14 @@ git push
 
 ### 2.7. Observações
 - `uv add <pacote>` adiciona dependências Python ao projeto (ex.: `uv add pandas`).
+
+## 3. Preparação do Ambiente
+wsl
+docker desktop
+docker file
+    criando a imagem do postgres
+    criando o container do postgres
+dbeaver
+sql power architect
+
 
