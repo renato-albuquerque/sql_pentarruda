@@ -51,5 +51,5 @@ git push
 ```
 
 ### 2.7. Observações
-- `uv add <pacote>` adiciona dependências Python ao projeto (ex.: `uv add pandas`). Não tem relação com o GitHub.
+- `uv add <pacote>` adiciona dependências Python ao projeto (ex.: `uv add pandas`).
 
