@@ -54,12 +54,28 @@ git push
 - `uv add <pacote>` adiciona dependências Python ao projeto (ex.: `uv add pandas`).
 
 ## 3. Preparação do Ambiente
-wsl
-docker desktop
-docker file
+
+### Instalação WSL (Windows Subsystem for Linux)
+É um recurso do Windows que permite executar um ambiente Linux de forma nativa no computador, sem precisar de uma máquina virtual separada. <br>
+[Informações sobre a instalação](https://learn.microsoft.com/pt-br/windows/wsl/install) <br>
+Como apoio para instalação, sugestão vídeo Eng. Dados Iury Rosal: <br>
+[Instalando WSL | Preparação de Ambiente Moderno para Engenharia de Dados #1](https://www.youtube.com/watch?v=nLgn43SYVU0&t=4s) 
+
+### Instalação Docker Desktop
+O Docker é uma plataforma de software de código aberto usada para criar, testar e implantar aplicativos rapidamente por meio de contêineres. <br>
+Um contêiner empacota o código de um aplicativo junto com todas as suas dependências, bibliotecas e arquivos de configuração. <br>
+Ele funciona de forma isolada do restante do sistema, garantindo que o programa rode igual em qualquer computador. Diferente de uma máquina virtual, o contêiner compartilha o núcleo (kernel) do sistema operacional da máquina principal, o que o torna muito mais leve e rápido. <br>
+[Informações sobre a instalação](https://docs.docker.com/desktop/setup/install/windows-install/) <br>
+Como apoio para instalação, sugestão vídeo Eng. Dados Iury Rosal: <br>
+[O que são containers e como lidar com eles com Docker | Introdução e Instalação](https://www.youtube.com/watch?v=je54-rHZVx4&t=5s)
+
+### Docker File
     criando a imagem do postgres
     criando o container do postgres
-dbeaver
-sql power architect
+
+### Instação Dbeaver
+
+
+### Instalação SQL Power Architect
 
 
