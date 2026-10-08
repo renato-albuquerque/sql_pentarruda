@@ -69,9 +69,27 @@ Ele funciona de forma isolada do restante do sistema, garantindo que o programa 
 Como apoio para instalação, sugestão vídeo Eng. Dados Iury Rosal: <br>
 [O que são containers e como lidar com eles com Docker | Introdução e Instalação](https://www.youtube.com/watch?v=je54-rHZVx4&t=5s)
 
-### Docker File
-    criando a imagem do postgres
-    criando o container do postgres
+### Dockerfile
+Parametrização do ambiente. <br>
+Obs.: Docker Desktop precisa está "rodando, running". <br>
+
+1. Na pasta do projeto, criar arquivo Dockerfile. <br>
+Comando no PowerShell: New-Item Dockerfile -Type File <br>
+2. Abrir arquivo DockerFile. <br>
+Comando no PowerShell: notepad C:\Users\...\Dockerfile <br>
+Ou abrir arquivo "clicando" em Dockerfile.
+3. Inserir informações no arquivo Dockerfile:
+FROM postgres <br>
+RUN localedef -i pt_BR -c -f UTF-8 -A /usr/share/locale/locale.alias pt_BR.UTF-8 <br>
+ENV LANG pt_BR.utf8 <br>
+Salvar e fechar arquivo.
+
+### Criar/Construir a imagem do Postgres
+Comando no PowerShell: docker build -t sql_pentarruda . <br>
+Resultado: Imagem criada no Docker Desktop. Checar no menu "Images". 
+
+### Criar o container do Postgres
+
 
 ### Instação Dbeaver
 
