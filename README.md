@@ -71,7 +71,6 @@ Como apoio para instalação, sugestão vídeo Eng. Dados Iury Rosal: <br>
 
 ### Dockerfile
 Parametrização do ambiente. <br>
-Obs.: Docker Desktop precisa está "rodando, running". <br>
 
 1. Na pasta do projeto, criar arquivo Dockerfile. <br>
 Comando no PowerShell: New-Item Dockerfile -Type File <br>
@@ -86,6 +85,7 @@ Salvar e fechar arquivo.
 
 ### Criar/Construir a imagem do Postgres
 Comando no PowerShell: docker build -t sql_pentarruda . <br>
+Obs.: Docker Desktop precisa está "rodando, running". <br>
 Resultado: Imagem criada no Docker Desktop. Checar no menu "Images". 
 
 ### Criar o container do Postgres
