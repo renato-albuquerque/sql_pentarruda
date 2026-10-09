@@ -77,7 +77,7 @@ Comando no PowerShell: New-Item Dockerfile -Type File <br>
 2. Abrir arquivo DockerFile. <br>
 Comando no PowerShell: notepad C:\Users\...\Dockerfile <br>
 Ou abrir arquivo "clicando" em Dockerfile.
-3. Inserir informações no arquivo Dockerfile:
+3. Inserir informações no arquivo Dockerfile: <br>
 FROM postgres <br>
 RUN localedef -i pt_BR -c -f UTF-8 -A /usr/share/locale/locale.alias pt_BR.UTF-8 <br>
 ENV LANG pt_BR.utf8 <br>
@@ -89,7 +89,8 @@ Obs.: Docker Desktop precisa está "rodando, running". <br>
 Resultado: Imagem criada no Docker Desktop. Checar no menu "Images". 
 
 ### Criar o container do Postgres
-
+Comando no PowerShell: docker run -d -p 5436:5432 -e POSTGRES_PASSWORD=123 -e POSTGRES_USER=postgres -e POSTGRES_DB=treinamento -e LANG=pt_BR.utf8 -e LC_ALL=pt_BR.UTF8 sql_pentarruda <br>
+Resultado: Container criado no Docker Desktop. Checar no menu "Containers". 
 
 ### Instação Dbeaver
 
