@@ -92,7 +92,7 @@ Resultado: Imagem criada no Docker Desktop. Checar no menu "Images".
 Comando no PowerShell: docker run -d -p 5436:5432 -e POSTGRES_PASSWORD=123 -e POSTGRES_USER=postgres -e POSTGRES_DB=treinamento -e LANG=pt_BR.utf8 -e LC_ALL=pt_BR.UTF8 sql_pentarruda <br>
 Resultado: Container criado no Docker Desktop. Checar no menu "Containers". 
 
-### Instação Dbeaver
+### Instalação Dbeaver
 [https://dbeaver.io/download/](https://dbeaver.io/download/) <br>
 Passos para conectar no banco de dados (Treinamento) do Container: <br>
 New database connection >> Select your database: PostgreSQL >> Preencher campos: <br>
@@ -105,7 +105,8 @@ Em seguida: Test Connection >> Finish <br>
 Banco de dados do Container conectado no Dbeaver.
 
 ### Instalação SQL Power Architect 
-
+Ferramenta gráfica e de código aberto voltada para a modelagem de bancos de dados e design de Data Warehouses. <br>
+[Instalar o software SQL Power Architect.](https://bestofbi.com/architect-download/) <br>
 Outra ferramenta para modelagem de dados: <br>
 [https://dbdiagram.io/home](https://dbdiagram.io/home)
 
