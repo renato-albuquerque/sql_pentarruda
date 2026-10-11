@@ -93,8 +93,21 @@ Comando no PowerShell: docker run -d -p 5436:5432 -e POSTGRES_PASSWORD=123 -e PO
 Resultado: Container criado no Docker Desktop. Checar no menu "Containers". 
 
 ### Instação Dbeaver
+[https://dbeaver.io/download/](https://dbeaver.io/download/) <br>
+Passos para conectar no banco de dados (Treinamento) do Container: <br>
+New database connection >> Select your database: PostgreSQL >> Preencher campos: <br>
+Host: Localhost <br>
+Port: 5436 <br>
+Database: Treinamento <br>
+Username: postgres <br>
+Password: *** <br>
+Em seguida: Test Connection >> Finish <br>
+Banco de dados do Container conectado no Dbeaver.
 
+### Instalação SQL Power Architect 
 
-### Instalação SQL Power Architect
+Outra ferramenta para modelagem de dados: <br>
+[https://dbdiagram.io/home](https://dbdiagram.io/home)
 
-
+### Popular Banco de Dados
+[Repositório GitHub, scripts para popular o bd.](https://github.com/kfreitasdev/Treinamento_sql)
