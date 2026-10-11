@@ -3,7 +3,9 @@
 Time envolvido: <br>
 [Renato Albuquerque](https://www.linkedin.com/in/renato-malbuquerque/) <br>
 [Kleber Freitas](https://www.linkedin.com/in/kleber-freitas-2795227b/) <br>
-[Arruda Consulting](https://www.linkedin.com/company/arrudaconsulting/)
+[Arruda Consulting](https://www.linkedin.com/company/arrudaconsulting/) <br>
+
+[Repositório Treinamento_sql | kfreitasdev](https://github.com/kfreitasdev/Treinamento_sql)
 
 ## 1. Arquitetura do Projeto
 ![imagem_arquitetura_projeto](images/arquitetura_projeto.jpg)
@@ -112,3 +114,7 @@ Outra ferramenta para modelagem de dados: <br>
 
 ### Popular Banco de Dados
 [Repositório GitHub, scripts para popular o bd.](https://github.com/kfreitasdev/Treinamento_sql)
+
+
+
+pendente: run container
