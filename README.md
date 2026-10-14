@@ -112,9 +112,16 @@ Ferramenta gráfica e de código aberto voltada para a modelagem de bancos de da
 Outra ferramenta para modelagem de dados: <br>
 [https://dbdiagram.io/home](https://dbdiagram.io/home)
 
+## Levantamento de Requisitos
+Módulo 2. <br>
+Canvas Model <br>
+1. Etapa Pessoas: Identificar Objetivos, Metas, Fórmulas, Envolvidos, Ações.
+2. Etapa Dados: Identificar as Métricas, Sistemas, Documentos. 
+3. Etapa Analytics: Identificar Dashboards, Data Marts, Reports.
+4. 
+
+-- rascunho
 ### Popular Banco de Dados
 [Repositório GitHub, scripts para popular o bd.](https://github.com/kfreitasdev/Treinamento_sql)
 
-
-
-pendente: run container
+pendente: run container ?
