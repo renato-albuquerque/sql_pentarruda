@@ -118,10 +118,22 @@ Canvas Model <br>
 1. Etapa Pessoas: Identificar Objetivos, Metas, Fórmulas, Envolvidos, Ações.
 2. Etapa Dados: Identificar as Métricas, Sistemas, Documentos. 
 3. Etapa Analytics: Identificar Dashboards, Data Marts, Reports.
-4. 
+4. Pré homologação dos dados (Dados Área x TI).
+5. 5W2H
 
--- rascunho
 ### Popular Banco de Dados
 [Repositório GitHub, scripts para popular o bd.](https://github.com/kfreitasdev/Treinamento_sql)
 
-pendente: run container ?
+No Dbeaver,  database "treinamento", criar schema oltp. <br>
+`CREATE SCHEMA oltp`
+
+Baixar arquivo no caminho: <br> 
+GitHub / Treinamento_sql / scripts_sql / scripts_ddl_criacao_de_tabelas.sql <br> 
+
+Criar as tabelas: Rodar arquivo: scripts_ddl_criacao_de_tabelas.sql <br> 
+
+Baixar arquivo no caminho: <br> 
+GitHub / Treinamento_sql / scripts_sql / scripts_insert_tabelas.sql <br> 
+
+Popular as tabelas (Inserir os dados): Rodar arquivo: scripts_insert_tabelas.sql <br> 
+
