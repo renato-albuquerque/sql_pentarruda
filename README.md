@@ -122,7 +122,8 @@ Canvas Model <br>
 5. 5W2H
 
 ### Popular Banco de Dados
-[Repositório GitHub, scripts para popular o bd.](https://github.com/kfreitasdev/Treinamento_sql)
+[Repositório GitHub, scripts para popular o bd.](https://github.com/kfreitasdev/Treinamento_sql) <br>
+Obs.: Abrir Docker >> Start container referente a imagem: sql_pentarruda <br>
 
 No Dbeaver,  database "treinamento", criar schema oltp. <br>
 `CREATE SCHEMA oltp`
